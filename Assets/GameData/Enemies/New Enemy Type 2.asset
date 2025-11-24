@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233122df244805e4d8f616c5a583e67c, type: 3}
+  m_Name: New Enemy Type 2
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyType
+  displayName: Enemy
+  maxHP: 10
+  moveSpeedBlocksPerSec: 0.25
+  collisionRadiusBlocks: 0.3
+  Attack: 1
+  prefab: {fileID: 1783767994762526753, guid: e0c221c52d9d0be428578f7a4f07bcd7, type: 3}

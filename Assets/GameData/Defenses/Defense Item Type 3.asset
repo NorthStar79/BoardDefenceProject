@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c828a5050c75a46a7607771c6df6e8, type: 3}
+  m_Name: Defense Item Type 3
+  m_EditorClassIdentifier: Assembly-CSharp::DefenseItemType
+  displayName: Tower 3
+  damage: 10
+  intervalSeconds: 5
+  rangeBlocks: 1
+  direction: 1
+  projectilePrefab: {fileID: 8490406839254114221, guid: 112ea8531cdd28d439531896cf8401c3, type: 3}
+  projectileSpeedBlocksPerSec: 8
+  canBeKilledByEnemy: 1

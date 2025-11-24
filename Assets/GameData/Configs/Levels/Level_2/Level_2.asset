@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9314371a384c544ab0e87457703967a, type: 3}
+  m_Name: Level_2
+  m_EditorClassIdentifier: Assembly-CSharp::LevelConfig
+  waves:
+  - {fileID: 11400000, guid: dd485aa94dd9dae4680f554d314bf2da, type: 2}
+  baseHP: 10
+  towerInventory:
+  - towerType: {fileID: 11400000, guid: 4bac5980c047465429ebe1b7481629fd, type: 2}
+    count: 3
+  - towerType: {fileID: 11400000, guid: 28f8fa74eba2cb74a8aa9aee79b1fa78, type: 2}
+    count: 4
+  - towerType: {fileID: 11400000, guid: 06672dc1d103fa944acd87f2570b515b, type: 2}
+    count: 2
